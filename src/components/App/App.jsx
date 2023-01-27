@@ -6,14 +6,15 @@ import { useAuth } from 'hooks/useAuth';
 import { Layout } from 'components/Layout';
 import { RestrictedRoute } from 'components/RestrictedRoute';
 import { PrivateRoute } from 'components/PrivateRoute';
+import Contacts from 'pages/Contacts/Contacts';
 
-const HomePage = lazy(() => import('pages/Home'));
+const HomePage = lazy(() => import('pages/Home/Home'));
 const RegisterPage = lazy(() => import('pages/Register'));
 const LoginPage = lazy(() => import('pages/Login'));
 const ContactsPage = lazy(() => import('pages/Contacts/Contacts'));
 
 export const App = () => {
-  const { isRefreshing } = useAuth();
+  const { isRefreshing, isLoggedIn } = useAuth();
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -25,7 +26,7 @@ export const App = () => {
   ) : (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
+        <Route index element={isLoggedIn ? <Contacts /> : <HomePage />} />
         <Route
           path="/register"
           element={
