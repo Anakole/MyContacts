@@ -1,9 +1,4 @@
-import {
-  Box,
-  ContactsTitle,
-  NoContacts,
-  PhonebookTitle,
-} from './Contacts.styled';
+import { Box, NoContacts } from './Contacts.styled';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
@@ -29,10 +24,8 @@ const Contacts = () => {
 
   return (
     <Box>
-      <PhonebookTitle>Phonebook</PhonebookTitle>
       <ContactForm />
 
-      <ContactsTitle>Contacts</ContactsTitle>
       <Filter />
 
       {contacts.length > 0 && <ContactsList />}
