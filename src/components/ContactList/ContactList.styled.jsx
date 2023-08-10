@@ -15,19 +15,19 @@ export const Item = styled.li`
   align-items: center;
   width: 370px;
   padding: 10px 20px;
-  color: #1f260f;
-  background-color: #f2e863b7;
+  color: #dbdfe0;
+  background-color: #182112e1;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 `;
 
 export const Button = styled.button`
   font-family: 'Montserrat', sans-serif;
-  color: #1f260f;
+  color: #dbdfe0;
   width: 40px;
   font-size: 20px;
   text-transform: uppercase;
-  background-color: #818c32c5;
+  background-color: #32571d;
   padding: 8px;
   border: none;
   border-radius: 8px;
@@ -35,6 +35,7 @@ export const Button = styled.button`
 
   &:hover,
   &:focus {
-    background-color: #f2e963;
+    color: #182112;
+    background-color: #8eb936;
   }
 `;

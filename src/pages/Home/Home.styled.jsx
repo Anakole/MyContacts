@@ -5,10 +5,10 @@ export const HomeBox = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 60px;
+  margin: 10px;
 
   h1 {
-    color: #1f260f;
+    color: #dbdfe1;
   }
 
   p {

@@ -7,6 +7,6 @@ export const ContactName = styled.p`
 `;
 
 export const ContactTel = styled.a`
-  color: #42490c;
+  color: #dbdfe1df;
   text-decoration: none;
 `;

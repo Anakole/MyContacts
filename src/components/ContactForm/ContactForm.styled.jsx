@@ -8,7 +8,7 @@ export const Form = styled.form`
   width: 350px;
   padding: 30px;
   margin-bottom: 30px;
-  background-color: #1f260f;
+  background-color: #182112d1;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 `;
@@ -28,10 +28,10 @@ export const Input = styled.input`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #1f260f;
+  color: #182112;
   font-size: 18px;
-  background: #f2e863b7;
-  border: 2px solid #f1edb3;
+  background: #5d6061;
+  border: 2px solid #dbdfe1;
   border-radius: 8px;
   padding: 10px;
   margin-top: 5px;
@@ -40,10 +40,10 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   font-family: 'Montserrat', sans-serif;
-  color: #1f260f;
+  color: #dbdfe1;
   width: 150px;
   text-transform: uppercase;
-  background-color: #828c32;
+  background-color: #32571d;
   padding: 10px;
   border: none;
   border-radius: 8px;
@@ -51,6 +51,7 @@ export const Button = styled.button`
 
   &:hover,
   &:focus {
-    background-color: #f2e963;
+    color: #182112;
+    background-color: #8eb936;
   }
 `;

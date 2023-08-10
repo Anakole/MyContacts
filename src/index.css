@@ -7,8 +7,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #828c32;
-    color: #f1edb3;
+    background: #000000;
+    color: #ffffff;
 }
 
 code {
@@ -32,5 +32,5 @@ input:-internal-autofill-selected {
 }
 
 input:focus-visible {
-    outline: #f2b749 auto 1px;
+    outline: none;
 }

@@ -13,10 +13,10 @@ export const Input = styled.input`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #1f260f;
+  color: #0d130b;
   font-size: 18px;
-  background: #f2e863b7;
-  border: 2px solid #f1edb3;
+  background: #5d6061;
+  border: 2px solid #dbdfe1;
   border-radius: 8px;
   padding: 10px;
   width: 400px;
@@ -26,17 +26,19 @@ export const Input = styled.input`
 
 export const FormButton = styled.button`
   font-family: 'Montserrat', sans-serif;
-  color: #828c32;
+  color: #dbdfe1;
   width: 90px;
   text-transform: uppercase;
-  background-color: #1f260f;
+  background-color: #32571d;
   padding: 10px;
   border: none;
   border-radius: 8px;
   font-weight: 500;
+  margin-top: 10px;
 
   &:hover,
   &:focus {
-    background-color: #f2e963;
+    color: #32571d;
+    background-color: #8eb936;
   }
 `;

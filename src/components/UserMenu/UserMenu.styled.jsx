@@ -5,6 +5,8 @@ export const MenuBox = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #dbdfe1;
+  font-size: 20px;
 `;
 
 export const LogoutButton = styled.button`
@@ -12,10 +14,10 @@ export const LogoutButton = styled.button`
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
-  color: #1f260f;
+  color: #dbdfe1;
   width: 90px;
   text-transform: uppercase;
-  background-color: #828c32;
+  background-color: #32571d;
   padding: 10px;
   border: none;
   border-radius: 8px;
@@ -23,6 +25,7 @@ export const LogoutButton = styled.button`
 
   &:hover,
   &:focus {
-    background-color: #f2e963;
+    color: #182112;
+    background-color: #8eb936;
   }
 `;

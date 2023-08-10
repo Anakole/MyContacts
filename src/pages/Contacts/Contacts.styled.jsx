@@ -15,7 +15,7 @@ export const NoContacts = styled.p`
   justify-content: center;
   width: 400px;
   height: 60px;
-  color: #1f260f;
+  color: #dbdfe1;
   font-weight: 600;
 `;
 
